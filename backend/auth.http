@@ -1,4 +1,4 @@
-# POST http://localhost:3001/create
+# POST http://localhost:5173/auth/create
 # content-type: application/json
 
 # {
@@ -7,13 +7,13 @@
 
 # }
 
-GET http://localhost:3001/findAll
+#GET http://localhost:5173/auth/findAll
 
-#GET http://localhost:3001/findOne/65f2eacabc769af788e86746
+#GET http://localhost:5173/authfindOne/65f2eacabc769af788e86746
 
-#DELETE http://localhost:3001/deleteOne/65f2eacabc769af788e86746
+#DELETE http://localhost:5173/authdeleteOne/65f2eacabc769af788e86746
 
-# PATCH http://localhost:3001/updateOne/65f2ee8851cff61ca1b53aa9
+# PATCH http://localhost:5173/auth/updateOne/65f2ee8851cff61ca1b53aa9
 # content-type : application/json
 
 # {

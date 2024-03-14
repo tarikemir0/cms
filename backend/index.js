@@ -2,7 +2,7 @@ const { error } = require('console');
 const Koa = require('koa')
 const bodyParser = require('koa-parser');
 const router = require('./src/auth/route/auth.route')
-require("dotenv").config({path: "./config/local.env"})
+require('dotenv').config({path: './config/local.env'})
 const app = new Koa()
 
 //middleware
@@ -18,7 +18,7 @@ app.use(router.routes())
 //     context.body = "Welcome to Koa backend"
 // })
 
-app.on("error", (error)=>{
+app.on('error', (error)=>{
     throw error
 })
 

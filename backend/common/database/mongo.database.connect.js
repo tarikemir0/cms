@@ -11,7 +11,7 @@ async function connectMongo(){
         await mongoose.connect('mongodb+srv://egemen:12345@trt-world-db.ayuglka.mongodb.net/?retryWrites=true&w=majority&appName=trt-world-db')
 
         const db = await mongoose.connection
-        console.log("db connection successful")
+        console.log('db connection successful')
         return db        
     } catch (error) {
         console.log(error)

@@ -9,7 +9,7 @@ module.exports = {
             context.body = result
             //context.body = "first route"
         }catch(err){
-            context.throw(500, "Internal server Error", err)
+            context.throw(500, 'Internal server Error', err)
         }
     },
 
@@ -19,7 +19,7 @@ module.exports = {
             context.body = result
             
         } catch (error) {
-            context.throw(500, "internal server error", error)
+            context.throw(500, 'internal server error', error)
         }
     },
 
@@ -30,7 +30,7 @@ module.exports = {
             })
             context.body = result
         } catch (error) {
-            context.throw(500, "internal server error", error)
+            context.throw(500, 'internal server error', error)
         }
     },
 
@@ -41,7 +41,7 @@ module.exports = {
             });
             context.body = result;
         } catch (err) {
-            context.throw(500, "Internal Server Error", err);
+            context.throw(500, 'Internal Server Error', err);
         }
     },
 
@@ -55,7 +55,7 @@ module.exports = {
             });
             context.body = resultAfterUpdate;
         } catch (err) {
-            context.throw(500, "Internal Server Error", err);
+            context.throw(500, 'Internal Server Error', err);
         }
     },
 
