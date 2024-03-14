@@ -1,8 +1,24 @@
-POST http://localhost:3001/create
-content-type: application/json
+# POST http://localhost:3001/create
+# content-type: application/json
 
-{
-    "username" : "egemen",
-    "password" : "sifre123"
+# {
+#     "username" : "denemeuser",
+#     "password" : "denemepassword"
 
-}
+# }
+
+GET http://localhost:3001/findAll
+
+#GET http://localhost:3001/findOne/65f2eacabc769af788e86746
+
+#DELETE http://localhost:3001/deleteOne/65f2eacabc769af788e86746
+
+# PATCH http://localhost:3001/updateOne/65f2ee8851cff61ca1b53aa9
+# content-type : application/json
+
+# {
+#     "username": "ayhan",
+#     "password": "ayhan12"
+# }
+
+ 
