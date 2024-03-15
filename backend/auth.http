@@ -1,24 +1,25 @@
-# POST http://localhost:5173/auth/create
+# POST http://localhost:5173/article/create
 # content-type: application/json
 
 # {
-#     "username" : "denemeuser",
-#     "password" : "denemepassword"
+#     "writer" : "deneme",
+#     "title" : "sudan",
+#     "body" : "sudan body text",
+#     "image": "https://fastly.picsum.photos/id/828/200/200.jpg?hmac=XDYHUvU1Ha9LQrkNk3svII_91vwnQqo8C0yWMqCt6V8"
 
 # }
 
-#GET http://localhost:5173/auth/findAll
+# GET http://localhost:5173/article/findAll
 
-#GET http://localhost:5173/authfindOne/65f2eacabc769af788e86746
+# GET http://localhost:5173/article/findOne/65f3f281de11ba9959a05f08
 
-#DELETE http://localhost:5173/authdeleteOne/65f2eacabc769af788e86746
+# DELETE http://localhost:5173/article/deleteOne/65f3f3ecde11ba9959a05f10
 
-# PATCH http://localhost:5173/auth/updateOne/65f2ee8851cff61ca1b53aa9
+# PATCH http://localhost:5173/article/updateOne/65f3f2e7de11ba9959a05f0a
 # content-type : application/json
 
 # {
-#     "username": "ayhan",
-#     "password": "ayhan12"
+#     "writer": "hakan"
 # }
 
  

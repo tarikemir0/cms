@@ -1,7 +1,7 @@
 const { error } = require('console');
 const Koa = require('koa')
 const bodyParser = require('koa-parser');
-const router = require('./src/auth/route/auth.route')
+const router = require('./src/article/route/article.route')
 require('dotenv').config({path: './config/local.env'})
 const app = new Koa()
 
