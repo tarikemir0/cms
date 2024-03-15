@@ -1,4 +1,4 @@
-const MongoConnection = require('../../../common/database/mongo.database.connect')
+const MongoConnection = require('../../common/database/mongo.database.connect')
 const articleModel = require('../model/article.model')
 
 module.exports = {
