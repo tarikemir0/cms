@@ -1,0 +1,22 @@
+POST http://localhost:5173/signup
+content-type: application/json
+
+{
+    "username" : "egemenhere",
+    "password" : "test"
+}
+
+# GET http://localhost:5173/user/findAll
+
+# GET http://localhost:5173/user/findOne/65f3f281de11ba9959a05f08
+
+# DELETE http://localhost:5173/user/deleteOne/65f4042c7501b177f394383b
+
+# PATCH http://localhost:5173/user/updateOne/65f404887501b177f3943841
+# content-type : application/json
+
+# {
+#     "writer": "sinan"
+# }
+
+ 
